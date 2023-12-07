@@ -1571,6 +1571,65 @@ a:focus {
     color: #414141;
 }
 
+.round{
+    border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+  
+  }
+  
+.talk-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.talk-bubble {
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 70%; /* Sesuaikan lebar sesuai kebutuhan */
+    background-color: #EF233C;
+    position: relative;
+}
+
+.talktext {
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+    color: #ffffff;
+}
+
+.talk-bubble.tri-right {
+    align-self: flex-end;
+}
+
+.talk-bubble.tri-left {
+    align-self: flex-start;
+}
+
+.tri-right.btm-left:after,
+.tri-left.btm-right:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -20px;
+    border: 22px solid;
+}
+
+.tri-right.btm-left:after {
+    right: 0;
+    border-color: transparent transparent transparent #EF233C;
+}
+
+.tri-left.btm-right:after {
+    left: 0;
+    border-color: transparent #EF233C transparent transparent;
+}
+
+
+
+
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
         margin-bottom: 20px;
