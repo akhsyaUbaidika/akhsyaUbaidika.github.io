@@ -1,0 +1,122 @@
+.typed-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  /* .logo-text{
+    margin: 0;
+    margin-top: 100px;
+    font-size: 45px;
+    line-height: 0px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: .5s;
+    color: #7453fc;
+  } */
+
+  .footer .footer-social {
+    position: relative;
+    margin-top: 15px;
+}
+
+.footer .footer-social a {
+    display: inline-block;
+}
+
+.footer .footer-social a i {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.footer .footer-social a:last-child i {
+    margin: 0;
+}
+
+.footer .footer-social a:hover i {
+    color: #414141;
+}
+
+/* 
+---------------------------------------------
+contact & Collections Style
+--------------------------------------------- 
+*/
+
+.contact-collections {
+    background-image: url(../images/light-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 120px 0px 150px 0px;
+    position: relative;
+    color: #282b2f;
+  }
+  
+  .contact-collections:after {
+    background-image: url(/assets/images/category-collection-dec.png);
+    width: 300px;
+    height: 282px;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    content: '';
+  }
+  
+  .contact .item {
+    background-color: #282b2f;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #404245;
+    position: relative;
+  }
+  
+  .contact .item .icon {
+    width: 62px;
+    height: 62px;
+    display: inline-block;
+    text-align: center;
+    line-height: 62px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .contact .item .icon img {
+    max-width: 31px;
+  }
+  
+  .contact .item h4 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  
+  .contact .item .icon-button a {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    background-color: #fff;
+    color: #7453fc;
+    border-radius: 50%;
+    font-size: 18px;
+    position: absolute;
+    left: 50%;
+    bottom: -23px;
+    transform: translateX(-23px);
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .contact .item .icon-button a:hover {
+    background-color: #7453fc;
+    color: #fff;
+  }
+  
+  .contact .item:hover .icon-button a {
+    visibility: visible;
+    opacity: 1;
+  }
